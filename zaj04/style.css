@@ -1,0 +1,22 @@
+
+header{
+    background-color: aqua;
+}
+footer{
+    background-color: blue;
+}
+#menu{
+    background-color: brown;
+}
+.artykul{
+    background-color: blueviolet;
+    flex: 2;
+}
+.side{
+    background-color: black;
+    flex: 1;
+    color: aliceblue;
+}
+main{
+    display: flex;
+}

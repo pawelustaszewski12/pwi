@@ -1,22 +1,56 @@
-
+buctra
 header{
     background-color: aqua;
+    font-size: 30px ;
+    text-align: center;
+    border: 20px;
 }
 footer{
     background-color: blue;
 }
 #menu{
-    background-color: brown;
+    font: 16px Arial;
+    background-color: silver;
 }
 .artykul{
+    font: 16px Arial;
     background-color: blueviolet;
     flex: 2;
 }
 .side{
+  font: 16px Arial;
     background-color: black;
     flex: 1;
     color: aliceblue;
 }
 main{
     display: flex;
+}
+p , body{
+
+  margin: 0;
+   padding: 20px 0;
+   color: #00539F;
+   text-shadow: 3px 3px 1px black;
+}
+nav, ul{
+  font: 16px Arial;
+  margin:0;
+  padding:0;
+  list-stock-type:none;
+}
+nav, li{
+display: inline-block;
+width: 33%;
+}
+a {
+  color: green;
+  display: inline-block;
+  width: 33%;
+}
+a:hover{
+    background-color: black;
+    border: 10px solid white;
+    color: white;
+    border-radius: 7px;
 }

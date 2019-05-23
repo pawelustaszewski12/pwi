@@ -21,5 +21,5 @@ else
 }
 }
 else
-    echo "puste wartosci";
+    echo "brak wartosci";
 ?>

@@ -11,11 +11,12 @@
                 print $row['marka'].': '.$row['model'].': '.$row['pojemosc'].'</li>';
                 $i=1;
         }
-        if($i == 0) {
-            echo "Nie ma takiego id!";
-        }
-    }
-    else {
-        echo "Podaj id!";
-    }
+          if($i == 0)
+          {
+              echo "Nie ma takiego id!";
+          }
+          else
+          {
+              echo "Podaj id!";
+          }
 ?>

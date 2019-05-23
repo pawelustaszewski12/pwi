@@ -1,14 +1,14 @@
 <?php
-    $pdo = new PDO('mysql:host=localhost;dbname=samochodytab','root','');
+    $pdo = new PDO('mysql:host=localhost;dbname=samochody','root','');
     if (isset($_GET['id'])) {
     $stm = $pdo->prepare('SELECT * FROM samochodytab WHERE id = ?');
-    $bind = $stm->bindValue(':id', $_GET['id'], PDO::PARAM_INT);
+    $stm->bindValue('1', $_GET['id'], PDO::PARAM_INT);
     $stm->execute();
     $i = 0;
     $pom = 0;
         while($row = $stm->fetch())
         {
-                print $row['typ'].': '.$row['nazwa'].': '.$row['pojemnosc'].'</li>';
+                print $row['marka'].': '.$row['model'].': '.$row['pojemosc'].'</li>';
                 $i=1;
         }
         if($i == 0) {
